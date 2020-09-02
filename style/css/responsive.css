@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 700px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo-img {
+        position: absolute;
+        margin: 5px auto;
+    }
+
+    .botao {
+        margin-top: 5px;
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .descricao {
+        width: 50%;
+    }
+}
+
+/* galaxy fold*/
+@media screen and (max-width: 300px) {
+    body {
+        width: 280px;
+    }
+
+    header {
+        font-size: 15px;
+    }
+
+    .carousel-filmes {
+        width: 100%;
+    }
+
+    .botao {
+        width: 100%;
+    }
+}
