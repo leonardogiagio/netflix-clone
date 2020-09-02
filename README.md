@@ -1,4 +1,4 @@
-#Clone - Página inicial Netflix
+# Clone - Página inicial Netflix
 
 <p>
 Um clone da página inicial da Netflix utilizando HTML, CSS e JQuery.
